@@ -1,0 +1,16 @@
+
+克隆仓库  git clone
+git pull 
+git push
+初始化仓库 git init
+添加用户信息
+git config --global user.name "你的名字或昵称"
+git config --global user.email "你的邮箱"
+添加所有所有新增文件  git add .  
+添加评论所有的东西   git commit -m "add something"
+查看当前git的配置 git config -l
+
+修改远程仓库 git remote set-url master https://github.com/ZYZ-G/testgit
+添加远程仓库 remote add origin https://github.com/ZYZ-G/testgit.git
+查看当前远程仓库 git remote -v
+删除指定仓库  git remote rm origin
